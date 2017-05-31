@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61A67A0D1EDE6B2F0088E796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A67A0C1EDE6B2F0088E796 /* main.m */; };
+		61A67A101EDE6B2F0088E796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A67A0F1EDE6B2F0088E796 /* AppDelegate.m */; };
+		61A67A131EDE6B2F0088E796 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A67A121EDE6B2F0088E796 /* ViewController.m */; };
+		61A67A161EDE6B2F0088E796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A67A141EDE6B2F0088E796 /* Main.storyboard */; };
+		61A67A181EDE6B2F0088E796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A67A171EDE6B2F0088E796 /* Assets.xcassets */; };
+		61A67A1B1EDE6B2F0088E796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A67A191EDE6B2F0088E796 /* LaunchScreen.storyboard */; };
+		61A67A241EDE6BE70088E796 /* TJAudioAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A67A231EDE6BE70088E796 /* TJAudioAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61A67A081EDE6B2F0088E796 /* TJAudioAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJAudioAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A67A0C1EDE6B2F0088E796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61A67A0E1EDE6B2F0088E796 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61A67A0F1EDE6B2F0088E796 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61A67A111EDE6B2F0088E796 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61A67A121EDE6B2F0088E796 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61A67A151EDE6B2F0088E796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61A67A171EDE6B2F0088E796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61A67A1A1EDE6B2F0088E796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61A67A1C1EDE6B2F0088E796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A67A221EDE6BE70088E796 /* TJAudioAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJAudioAnimation.h; sourceTree = "<group>"; };
+		61A67A231EDE6BE70088E796 /* TJAudioAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJAudioAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A67A051EDE6B2F0088E796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61A679FF1EDE6B2F0088E796 = {
+			isa = PBXGroup;
+			children = (
+				61A67A0A1EDE6B2F0088E796 /* TJAudioAnimation */,
+				61A67A091EDE6B2F0088E796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61A67A091EDE6B2F0088E796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A67A081EDE6B2F0088E796 /* TJAudioAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A67A0A1EDE6B2F0088E796 /* TJAudioAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				61A67A0E1EDE6B2F0088E796 /* AppDelegate.h */,
+				61A67A0F1EDE6B2F0088E796 /* AppDelegate.m */,
+				61A67A111EDE6B2F0088E796 /* ViewController.h */,
+				61A67A121EDE6B2F0088E796 /* ViewController.m */,
+				61A67A221EDE6BE70088E796 /* TJAudioAnimation.h */,
+				61A67A231EDE6BE70088E796 /* TJAudioAnimation.m */,
+				61A67A141EDE6B2F0088E796 /* Main.storyboard */,
+				61A67A171EDE6B2F0088E796 /* Assets.xcassets */,
+				61A67A191EDE6B2F0088E796 /* LaunchScreen.storyboard */,
+				61A67A1C1EDE6B2F0088E796 /* Info.plist */,
+				61A67A0B1EDE6B2F0088E796 /* Supporting Files */,
+			);
+			path = TJAudioAnimation;
+			sourceTree = "<group>";
+		};
+		61A67A0B1EDE6B2F0088E796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61A67A0C1EDE6B2F0088E796 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A67A071EDE6B2F0088E796 /* TJAudioAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A67A1F1EDE6B2F0088E796 /* Build configuration list for PBXNativeTarget "TJAudioAnimation" */;
+			buildPhases = (
+				61A67A041EDE6B2F0088E796 /* Sources */,
+				61A67A051EDE6B2F0088E796 /* Frameworks */,
+				61A67A061EDE6B2F0088E796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJAudioAnimation;
+			productName = TJAudioAnimation;
+			productReference = 61A67A081EDE6B2F0088E796 /* TJAudioAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A67A001EDE6B2F0088E796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Joshpell;
+				TargetAttributes = {
+					61A67A071EDE6B2F0088E796 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UNEC8F9P65;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61A67A031EDE6B2F0088E796 /* Build configuration list for PBXProject "TJAudioAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A679FF1EDE6B2F0088E796;
+			productRefGroup = 61A67A091EDE6B2F0088E796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A67A071EDE6B2F0088E796 /* TJAudioAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A67A061EDE6B2F0088E796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A67A1B1EDE6B2F0088E796 /* LaunchScreen.storyboard in Resources */,
+				61A67A181EDE6B2F0088E796 /* Assets.xcassets in Resources */,
+				61A67A161EDE6B2F0088E796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A67A041EDE6B2F0088E796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A67A131EDE6B2F0088E796 /* ViewController.m in Sources */,
+				61A67A241EDE6BE70088E796 /* TJAudioAnimation.m in Sources */,
+				61A67A101EDE6B2F0088E796 /* AppDelegate.m in Sources */,
+				61A67A0D1EDE6B2F0088E796 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61A67A141EDE6B2F0088E796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A67A151EDE6B2F0088E796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61A67A191EDE6B2F0088E796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A67A1A1EDE6B2F0088E796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61A67A1D1EDE6B2F0088E796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61A67A1E1EDE6B2F0088E796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61A67A201EDE6B2F0088E796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNEC8F9P65;
+				INFOPLIST_FILE = TJAudioAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Joshpell.TJAudioAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61A67A211EDE6B2F0088E796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNEC8F9P65;
+				INFOPLIST_FILE = TJAudioAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Joshpell.TJAudioAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A67A031EDE6B2F0088E796 /* Build configuration list for PBXProject "TJAudioAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A67A1D1EDE6B2F0088E796 /* Debug */,
+				61A67A1E1EDE6B2F0088E796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A67A1F1EDE6B2F0088E796 /* Build configuration list for PBXNativeTarget "TJAudioAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A67A201EDE6B2F0088E796 /* Debug */,
+				61A67A211EDE6B2F0088E796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A67A001EDE6B2F0088E796 /* Project object */;
+}
